@@ -1,0 +1,118 @@
+.nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.horizontalNav__options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verticalNav__options {
+  margin-right: 10px;
+  position: absolute;
+  right: 1px;
+  z-index: 10;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #11304b, #0e5252);
+  width: 250px;
+  border-radius: 10px;
+  border-top-right-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.transition{
+
+}
+
+
+
+#triangle {
+  position: absolute;
+  right: 4px;
+  z-index: 10;
+  top: -20px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #0f4d51;
+}
+
+.verticalNav__options > div > .MuiSvgIcon-root {
+  position: absolute;
+  top: -50px;
+  right: -1.5px;
+  width: 50px;
+  cursor: pointer;
+}
+.verticalNav__options > div > .MuiSvgIcon-root:hover {
+  color: #1ce783;
+}
+
+.nav > div > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+.nav > div > .MuiSvgIcon-root:hover {
+  color: #1ce783;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__option > .MuiButton-label > p {
+  position: relative;
+  color: white;
+  font-family: "Chilanka", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: small;
+  font-weight: 1000;
+}
+
+.nav__option > p {
+  color: white;
+  font-family: "Chilanka", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: small;
+  font-weight: 1000;
+}
+
+.resume {
+  text-align: center;
+  padding: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 3px solid #1ce783;
+  border-radius: 8px;
+}
+
+.nav__option > a:hover {
+  background-color: rgba(152, 234, 255, 0);
+}
+.nav__option {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.nav__option > .MuiButton-label > p:hover {
+  color: #1ce783;
+}
+
+.nav > a {
+  cursor: pointer;
+  color: #1ce783;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 40px;
+}

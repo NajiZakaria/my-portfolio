@@ -1,0 +1,25 @@
+.app {
+  width: 100%;
+  background-image: linear-gradient(to right, #051421, #042727);
+  overflow-x: hidden;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .app__body > div {
+    width: 95%;
+  }
+} 
+
+
+.app__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__body > div {
+  width: 80%;
+}
+
+

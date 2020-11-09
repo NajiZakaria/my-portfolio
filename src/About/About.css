@@ -1,0 +1,51 @@
+.about{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    padding: 15vh 0;
+}
+
+.about > h1 {
+    color: #1CE783;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 22px; 
+}
+
+.about__brief{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and  (max-width: 768px) {
+    .about__brief {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+}
+
+
+
+
+.about__briefText {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 90%;
+    align-self: center;
+    margin-right: 5vw;
+}
+
+
+.about__briefText > p{
+    font-size: 20px;
+}
+
+.about__brief > img{
+    object-fit:cover;
+    width: 220px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+}

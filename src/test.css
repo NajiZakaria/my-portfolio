@@ -1,0 +1,53 @@
+.home{    
+    font-family: 'Source Code Pro', monospace;
+    padding: 150px 0;
+}
+
+.home > h1{
+    color:White;
+    font-size: 20px;
+    color:#1CE783;
+}
+
+
+.home > h2{
+    color:White;
+    font-size: 60px;
+    color:#CCD6F6;
+    margin:50px 0;
+}
+
+
+.home > h3{
+    color:White;
+    font-size: 60px;
+    color:#8892B0;
+}
+
+@media only screen and  (max-width: 400px) {
+    .home > h1{
+        font-size: 18px;
+    }
+    .home > h2{
+        font-size: 35px;
+    }
+
+    .home > h3{
+        font-size: 31px;
+        margin-bottom: 30;
+    }
+}
+
+
+
+.home > a{
+    color: #1CE783;
+    background-color: transparent;
+    border: 1px solid #1CE783;
+    border-radius: 15px;
+    padding: 1.25rem 1.75rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+}

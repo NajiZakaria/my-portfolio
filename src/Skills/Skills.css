@@ -1,0 +1,47 @@
+.skills {
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  padding:75px 0;
+  width: 100%;
+}
+
+.skills > h1 {
+  color: #1CE783;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 22px;
+
+}
+
+.skills__categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__category {
+  margin: 0 6vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .skills__category {
+    margin: 0 4vw;
+  }
+} 
+
+.skills__category > h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #007bff;
+  text-align: center;
+}
+
+.skills__category > h3 {
+  margin: 8px 0;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+

@@ -1,0 +1,50 @@
+.experiences {
+  flex:1;
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+.experiences > h1 {
+  color: #1CE783;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.experiences__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experiences__item > .top{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+@media only screen and (max-width: 700px) {
+  .experiences__item > .top{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.experiences__item > .top > h2 {
+  font-size: 18px;
+  color: #007bff;
+}
+.experiences__item > .top > h3 {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+
+.experiences__item > h4 {
+  font-weight: 300;
+  font-size: 15px;
+  color: lightgray;
+}

@@ -1,0 +1,78 @@
+.projects {
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.projects > h1 {
+  margin-left: 0vw;
+  color: #1ce783;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.projects__box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin : 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #11304b, #0e5252);
+}
+
+.project > .project__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project > .project__header > div {
+  display: flex;
+}
+
+.project > .project__header >  .MuiSvgIcon-root {
+ color:#2b89f5;
+ height: 50px;
+ width: 50px;
+}
+
+.project > .project__header > div  > a {
+  cursor: pointer;
+  color :white;
+  margin-left: 20px;
+}
+
+.project > .project__header > div > a > .MuiSvgIcon-root:hover {
+  color:#2b89f5;
+ }
+
+
+
+.project__content > h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+  color: #0ed2f5;
+}
+
+.project__bottom > p {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.project__bottom > h3 {
+  margin: 15px 0;
+  padding-left: 10px;
+  color:gray;
+  font-size: 14px;
+}
